@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  product_id: 
+  pfeature_id: 
+  active_status: 1
+  sort: 1
+
+two:
+  name: MyString
+  product_id: 
+  pfeature_id: 
+  active_status: 1
+  sort: 1

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  pdate: 2017-01-04 12:47:42
+  active_status: 1
+  sort: 1
+
+two:
+  name: MyString
+  pdate: 2017-01-04 12:47:42
+  active_status: 1
+  sort: 1

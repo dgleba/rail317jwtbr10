@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @product_feature.name %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @product_feature.product %>
+</p>
+
+<p>
+  <strong>Pfeature:</strong>
+  <%= @product_feature.pfeature %>
+</p>
+
+<p>
+  <strong>Active status:</strong>
+  <%= @product_feature.active_status %>
+</p>
+
+<p>
+  <strong>Sort:</strong>
+  <%= @product_feature.sort %>
+</p>
+
+<%= link_to 'Edit', edit_product_feature_path(@product_feature) %> |
+<%= link_to 'Back', product_features_path %>
