@@ -54,3 +54,6 @@ gem 'thor', '0.19.1'
 # 
 gem 'simple_form'
 gem 'bootstrap-sass'
+gem 'kaminari'
+gem 'ransack'
+gem 'bootstrap-kaminari-views'
