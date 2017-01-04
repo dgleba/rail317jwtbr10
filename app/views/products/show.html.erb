@@ -20,5 +20,11 @@
   <%= @product.sort %>
 </p>
 
+<p>
+<% @product.pfeature.each do |v1| %>
+    <%= link_to v1.name, v1 %>
+<% end %>
+</p>
+
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
