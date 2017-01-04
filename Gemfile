@@ -60,3 +60,4 @@ gem 'bootstrap-kaminari-views'
 gem "devise"
 gem 'jwt'
 gem "cancancan"
+gem 'rails_admin'
