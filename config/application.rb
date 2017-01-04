@@ -8,6 +8,10 @@ Bundler.require(*Rails.groups)
 
 module Rail317jwtbr10
   class Application < Rails::Application
+
+    config.active_record.table_name_prefix = "rr4_"
+    config.time_zone = 'Eastern Time (US & Canada)'
+    
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
