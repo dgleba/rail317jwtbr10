@@ -45,3 +45,7 @@ group :development do
   gem 'spring'
 end
 
+gem 'faker'
+gem 'populator'
+gem 'thor', '0.19.1'
+# 
