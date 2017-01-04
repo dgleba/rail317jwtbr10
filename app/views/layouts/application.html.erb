@@ -1,14 +1,50 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html>
-<head>
-  <title>Rail317jwtbr10</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+      <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+          <title>rail263</title>
+          <%= stylesheet_link_tag    'application', media: 'all' %>
+          <%= javascript_include_tag 'application' %>
+          <%= csrf_meta_tags %>
+        </meta>
+      </meta>
+    </meta>
+  </head>
+  <body class="<%= controller.controller_name %>">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+        </div>
 
-<%= yield %>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <!-- <%= link_to 'Products', products_path %> -->
+            </li>
+          </ul>
+        </div>
 
-</body>
+      </div>
+    </nav>
+    
+
+    <div class="container-fluid">
+      <% flash.each do |type, msg| %>
+        <div class="alert alert-<%= type == 'alert' ? 'danger' : 'success' %> alert-dismissable" role="alert">
+          <button class="close"> Close </button>
+          <%= msg if msg.is_a?(String) %>
+        </div>
+      <% end %>
+      <%= yield %>
+    </div>
+
+  </body>
 </html>
