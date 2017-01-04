@@ -1,0 +1,61 @@
+ ~~~~~~~~~~~~~~~ Careful, this may be missing one version, but may hint this project history. ~~~~~~~~~~~~~~~~~~
+
+commit bd8c8081710f07ab69f50bdb112154e659f4dbb4
+Author: dgleba <dgleba@gmail.com>
+Date:   Wed Jan 4 11:23:00 2017 -0500
+
+    changes for delete
+
+commit 20e104065b7d12391955110d81b0d5052c53d5ab
+Author: dgleba <dgleba@gmail.com>
+Date:   Wed Jan 4 09:32:21 2017 -0500
+
+    update for json response - contoller put
+
+commit 4b92744d58b27ed4b003c69fcece8e19c4c3cae8
+Author: dgleba <dgleba@gmail.com>
+Date:   Wed Jan 4 07:57:46 2017 -0500
+
+    install rails
+
+commit ed22aaede2b921f7deedd7130436d5f9f18b0a05
+Author: dgleba <dgleba@gmail.com>
+Date:   Tue Jan 3 15:22:15 2017 -0500
+
+    modify controller template
+
+commit e9d4aac8b0a3593c26412af2afc9668db99f2290
+Author: dgleba <dgleba@gmail.com>
+Date:   Tue Jan 3 14:20:34 2017 -0500
+
+    docs 2017-01-03_Tue_14.20-PM
+
+commit 59ba28f4cd7f81336aeb5f925c08eb3153dafb46
+Author: dgleba <dgleba@gmail.com>
+Date:   Tue Jan 3 09:54:58 2017 -0500
+
+    more docs 2017-01-03
+
+commit af9669f969f630759d5b2efb953bace3f50b39e6
+Author: David Gleba <dgleba@gmail.com>
+Date:   Fri Dec 30 11:46:41 2016 -0500
+
+    Change index layout
+
+commit 412c1ae10f77c3a57d7f3120dbad88a4d01c25a6
+Author: David Gleba <dgleba@gmail.com>
+Date:   Fri Dec 30 11:09:05 2016 -0500
+
+    fix vertcal misalignment on top row of index pages
+
+commit 4b2f3ff2f93fca6ba71c95f1e734bca68ff83c33
+Author: David Gleba <dgleba@gmail.com>
+Date:   Thu Dec 29 22:05:22 2016 -0500
+
+    add jwt token auth 2016-12-29
+
+commit 4feb0e85740f949dee13fc92307f17c4bd498901
+Author: David Gleba <dgleba@gmail.com>
+Date:   Wed Dec 28 14:28:22 2016 -0500
+
+    make name optional
