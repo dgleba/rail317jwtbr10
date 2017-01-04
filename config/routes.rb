@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
  
 
+  mount RailsAdmin::Engine => '/radmin', as: 'rails_admin'
   resources :roles
   devise_for :users, controllers: { sessions: 'users/sessions' }
   
