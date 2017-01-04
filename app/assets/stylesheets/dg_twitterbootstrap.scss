@@ -1,0 +1,28 @@
+
+//# app/assets/stylesheets/dg_twitterbootstrap.scss
+//# eg: C:\var\share203\rail317jwtbr6\app\assets\stylesheets\dg_twitterbootstrap.scss
+
+// bootstrap components have different heights
+// https://scotch.io/bar-talk/different-tricks-on-how-to-make-bootstrap-columns-all-the-same-height
+//
+// usage: on top row of index page for example.. <row class="row is-table-row" >
+//
+@media only screen and (min-width : 768px) {
+  .is-table-row {
+    display: table;
+  }
+  .is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.is-table-row .box {
+  background: none;
+  position: static;
+}
+.is-table-row [class*="col-"] {
+  background: #fff;
+}
+
