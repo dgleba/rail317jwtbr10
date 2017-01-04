@@ -1,4 +1,5 @@
 RailsAdmin.config do |config|
+  config.total_columns_width = 9999999
 
   ### Popular gems integration
 
